@@ -9,10 +9,6 @@ Este projeto foi desenvolvido como parte de um desafio de lógica de programaç�
 - Consulta às taxas de câmbio em tempo real
 - Exibição do valor convertido
 
-## 📷 Imagem do Código Principal
-
-<img src="code.png" alt="foto do código">
-
 ## 🛠 Tecnologias Utilizadas
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)

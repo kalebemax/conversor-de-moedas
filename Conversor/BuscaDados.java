@@ -1,5 +1,8 @@
+package Conversor;
+
 import com.google.gson.Gson;
 
+import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
@@ -31,7 +34,7 @@ public class BuscaDados {
                 }
 
                 return new Gson().fromJson(response.body(), TaxaDeCambio.class);
-            } catch (Exception ex) {
+            } catch (IOException | InterruptedException e) {
                 throw new RuntimeException("Ocorreu um erro inesperado!");
             }
         }

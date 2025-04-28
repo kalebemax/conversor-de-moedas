@@ -1,3 +1,8 @@
+package Principal;
+
+import Conversor.BuscaDados;
+import Conversor.TaxaDeCambio;
+
 import java.util.Scanner;
 
 public class Principal {
